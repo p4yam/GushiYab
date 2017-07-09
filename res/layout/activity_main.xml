@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGray"
+    android:layoutDirection="rtl"
+    tools:context="com.payam.gushiyab.ir.payam.gushiyab.MainActivity">
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layoutDirection="rtl"
+        android:text="وضعیت فعلی برنامه : "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/activity_main_appStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_toLeftOf="@id/status_text"
+        android:layoutDirection="rtl"
+        android:text="غیر فعال"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/activity_main_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/button_disabled" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:id="@+id/activity_main_about_me"
+        android:src="@drawable/good_mood_emoticon"/>
+
+
+</RelativeLayout>

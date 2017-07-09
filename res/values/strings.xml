@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">گوشیم کو</string>
+    <string name="settingsSample">مثلا : روشن</string>
+    <string name="settingsTutorial">لطفا متن مورد نظر برای فعال شدن آلارم را با دقت وارد نمایید. زمانی که گوشی خود را گم کرده باشید فقط کافیست که این متن را به تلفن همراه خود پیامک کنید.</string>
+    <string name="rateUs">لطفا در صورتی که از برنامه راضی بوده اید با دادن امتیاز در بازار ما را حمایت کنید</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
